@@ -58,7 +58,7 @@ body {
 /* ------box text------ */
 
 #box__text {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   display: none;
 }
@@ -74,13 +74,14 @@ body {
 .box__player-winner {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  font-size: 40px;
+  margin-top: 40px;
+  font-size: 55px;
 }
 
 .box__player-x-o {
-  margin: 10px 0 35px;
-  font-size: 60px;
+  margin: 10px 0 20px;
+  font-size: 65px;
+  color: #c21717;
 }
 
 .box__player-newgame {
@@ -92,4 +93,5 @@ body {
   width: 240px;
   height: 40px;
   margin: 0 auto;
+  cursor: pointer;
 }
